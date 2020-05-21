@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+
+body{
+    width: 414px;
+    font-family: Roboto Mono;
+}
+
+header{
+    height: 40px;
+    padding-top: 1px;
+    border-bottom: 0.5px solid #E5E5E5;
+    position: relative;
+}
+
+header a{
+    font-family: 'Prata', serif;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 125px;
+}
+
+#form-ipad img{
+    height: 20px;
+    width: 20px;;
+    position: absolute;
+    left: 611px;
+    top: 3px;
+    display: none;
+}
+
+header img{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+    display: none;
+}
+
+nav{
+    height: 20px;
+    border-bottom: 0.5px solid #E5E5E5;
+    position: relative;
+}
+
+nav img:first-child{
+    height: 8px;
+    width: 8px;
+    opacity: 0.5;
+    position: absolute;
+    left: 185px;
+    top: 5px;
+}
+
+nav img:last-child{
+    height: 14px;
+    width: 14px;
+    opacity: 0.5;
+    position: absolute;
+    left: 376px;
+    top: 3px;
+}
+
+nav a{
+    color: #0F0E0E;
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 8px;
+    letter-spacing: 0.06em;
+    left: 198px;
+    top: 5px;
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*----------------------- main 1 --------------------*/
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rectangle-images{
+    margin-top: 48px;
+    margin-left: 45px;
+    width: 140px;
+    height: 140px;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle-images a{
+    color: #000000;
+    letter-spacing: 0.06em;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 11px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.rectangle-images a img{
+    height: 90px;
+    width: 90px;
+}
+
+
+/*----------------------- main 2 --------------------*/
+
+#mainBaskets{
+    display: flex;
+    flex-direction: column;
+}
+
+.h{
+    margin-top: -12px;
+    position: absolute;
+    left: 92px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.h a:first-child{
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 17px;
+    text-decoration: none;
+    display: none;
+}
+
+.h a:hover{
+    text-decoration: underline;
+}
+
+.h a:nth-child(2):hover{
+    text-decoration: underline;
+}
+
+.h a:nth-child(2){
+    letter-spacing: 2px;
+    color: black;
+    margin-left: -19px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    display: none;
+}
+
+.h span{
+    margin-left: 67px;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+}
+
+.baskets{
+    position: relative;
+    left: 98px;
+}
+
+.rectangle-images p{
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgba(73, 75, 72, 0.74);
+}
+
+/*----------------------- main 3 --------------------*/
+
+#dark-soft{
+    display: flex;
+}
+
+#dark-soft .h span{
+    margin-left: 84px;
+}
+
+#dark-soft > a > img{
+    height: 16px;
+    width: 16px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+h6{
+    letter-spacing: 5px;
+    font-size: 10px;
+    font-family: Roboto Mono;
+    position: absolute;
+    left: 336px;
+    top: 85px;
+}
+
+#h-dark a:nth-child(2){
+    color: rgba(0, 0, 0, 0.35);
+}
+
+#h-dark a:nth-child(3){
+    letter-spacing: 2px;
+    color: black;
+    margin-left: -19px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    display: none;
+}
+
+#h-dark a:nth-child(3):hover{
+    text-decoration: underline;
+}
+
+/*------------------------basket item--------------------*/
+  
+.container {
+    position: relative;
+    top: 40px
+}
+
+.mySlides {
+    position: relative;
+    height: 300px;
+}
+
+.mySlides > img{
+    display: flex;
+    position: absolute;
+    left: 149px;
+}
+
+
+.mySlides > a > img{
+    width: 10.84px;
+    height: 11px;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    left: 120px;
+    top: 60px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.back,.move {
+    background-color: rgb(194, 183, 183);
+    cursor: pointer;
+    position: absolute;
+    top: 27%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+}
+
+.move {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.back:hover,.move:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    color:black;
+    padding: 8px 12px;
+    position: absolute;
+    font-size: 10px;
+    font-family: Roboto Mono;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,.demo:hover {
+    opacity: 1;
+}
+
+img.demo.cursor{
+    width: 100%;
+}
+
+/*----------------------- main 4 --------------------*/
+
+.tab{
+    display: none;
+    top: 200px;
+    left: 77px;
+    position: absolute;
+}
+
+.current{
+    display: block;
+}
+
+form{
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 470px;
+    width: 300px;
+}
+
+input{
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #9999ff; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 17px; 
+    cursor: pointer; 
+    position: absolute;
+    top: 466px;
+    left: 265px;
+}
+
+button:hover{
+    opacity: 0.8; 
+}
+
+.previous{
+    background-color: #bbbbbb;
+    left: 153px; 
+}
+
+.step{
+    height: 22px;
+    width: 22px;
+    margin: 0 2px;
+    color: #fff;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.8;
+    padding: 5px;
+    position: relative;
+    top: 430px;
+}
+
+#numbres{
+    text-align: center;
+}
+
+.step.active{
+    opacity: 1; 
+    background-color: #9999ff;
+}
+
+.step.finish{
+    background-color: #9999ff; 
+}
+
+.error{
+    color: #f00; 
+}
+
+.tab img{
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    left: 58px;
+    top: 110px;
+}
+
+.form-group{
+    font-size: 14px;
+    margin-top: 23px;
+    position: relative;
+}
+
+/*----------------------- footer --------------------*/
+footer{
+    width: 100%;
+    height: 40px;  
+    border-top: 0.5px solid #E5E5E5;
+    margin-top: 78px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a img{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+/*----------------------- iped --------------------*/
+
+@media (min-width: 414px){
+
+    footer{
+        display: none;
+    }
+
+    body{
+        width: 1024px;
+        height: 768px;
+    }
+
+    header{
+        height: 60px;
+    }
+
+    header a{
+        font-size: 30px;
+        left: 340px;
+    }
+
+    #form-ipad img{
+        display: block;
+    }
+
+    header img{
+        display: block;
+    }
+
+    nav{
+        height: 30px;
+    }
+
+    nav img:first-child{
+        height: 12px;
+        width: 12px;
+        left: 455px;
+        top: 9px;
+    }
+
+    nav img:last-child{
+        height: 20px;
+        width: 20px;
+        left: 940px;
+        top: 6px;
+    }
+
+    nav a{
+        font-size: 15px;
+        left: 483px;
+        top: 4px;
+    }
+
+    /*----------------------- main 1 --------------------*/
+
+    .rectangle-images{
+        margin-left: 88px;
+        width: 225px;
+        height: 225px;
+    }
+
+    .rectangle-images a{
+        font-size: 20px;
+    }
+
+    .rectangle-images a img{
+        height: 130px;
+        width: 130px;
+        margin-top: 27px;
+    }
+
+    /*----------------------- main 2 --------------------*/
+
+    .h a:first-child, .h a:nth-child(2){
+        display: inline-flex;
+    }
+
+    .h span{
+        font-size: 30px;
+    }
+    
+    .h{
+        margin-top: 50px;
+        left: 40px;
+    }
+
+    #mainBaskets{
+        flex-direction: row;
+    }
+
+    .baskets{
+        left: -20px;
+        top: 170px
+    }
+
+    .rectangle-images p{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    /*----------------------- main 3 --------------------*/
+ 
+    #h-dark a:nth-child(3){
+        display: inline-flex;
+    }
+
+    h6{
+        font-size: 13px;
+        left: 850px;
+        top: 136px;
+    }
+
+    #dark-soft .h a:nth-child(3){
+        margin-left: -14px;
+    }
+
+    #dark-soft  .h span{
+        margin-left: 1px;
+    }
+
+
+    #dark-soft > a > img{
+        display: none;
+    }
+
+    .container {
+        top: 119px;
+        left: 106px;
+        width: 860px;
+    }
+
+    .numbertext{
+        font-size: 22px
+    }
+
+    img.demo.cursor{
+        width: 60%;
+    }
+    .column {
+        width: 10.66%;
+        margin-left: 71px;
+    }
+
+    .mySlides > img {
+        left: 370px;
+    }
+
+    .mySlides > a > img {
+        left: 340px;
+    }
+
+    /*----------------------- main 4 --------------------*/
+
+    form{
+        margin-top: 150px;
+        height: 420px;
+        width: 900px;
+    }
+
+    #formAdd  .h span{
+        margin-left: 146px;
+    }
+
+    .step {
+        height: 40px;
+        width: 40px;
+        margin: 11px 57px;
+        top: 335px;
+        position: relative;
+        font-size: 30px;
+    }
+
+    .tab img {
+        height: 200px;
+        width: 200px;
+        left: 120px;
+        top: 56px;
+    }
+
+    button {
+        top: 529px;
+        left: 834px;
+    }
+
+    .previous {
+        left: 100px;
+    }
+
+    .tab {
+        top: 268px;
+        left: 294px;
+        position: absolute;
+        font-size: 28px;
+    }
+
+    .form-group {
+        font-size: 19px;
+        margin-top: 23px;
+        top: 11px;
+        left: 87px;
+    }
+
+    input {
+        margin-left: 108px;
+    }
+}
